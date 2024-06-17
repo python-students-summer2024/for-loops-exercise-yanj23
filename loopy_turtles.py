@@ -89,7 +89,7 @@ def draw_square(t, start_x, start_y, length, rotation_direction, fill_color):
         t.forward(length)
         if rotation_direction == 'left':
             t.left(90)
-        elif rotation_direction == 'right':
+        else:
             t.right(90) 
     
     t.end_fill()
